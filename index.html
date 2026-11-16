@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#faf8f5">
+  <meta name="description" content="Un espacio para realzar tu belleza. Descubre nuestros servicios de cabello y uñas y agenda tu cita por WhatsApp.">
+  <title>[Nombre del salón o estilista] — Estudio de belleza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">a.</span>
+        <span class="brand-copy"><strong>[Nombre del salón o estilista]</strong><small>ESTUDIO DE BELLEZA</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+      <div class="nav-menu" id="primary-menu">
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a class="button button-dark nav-booking" href="https://wa.me/593999398553?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer">Agendar cita <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> TU MOMENTO, TU BELLEZA</p>
+          <h1>Un espacio para<br><em>sentirte tú.</em></h1>
+          <p class="hero-description">Cabello y uñas con un toque especial. Ven a regalarte un momento para ti.</p>
+          <a class="button button-rose" href="https://wa.me/593999398553?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer">Agenda tu cita <span aria-hidden="true">↗</span></a>
+          <div class="hero-note"><span class="note-stars" aria-hidden="true">✳</span> Un cuidado que se siente, un resultado que se nota.</div>
+        </div>
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=85" alt="Mujer disfrutando de un momento de cuidado personal en el salón" fetchpriority="high">
+          <div class="image-caption"><span>BEAUTY, YOUR WAY</span><span>✳</span></div>
+          <span class="hero-stamp" aria-hidden="true">un<br>momento<br>para ti</span>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>01 — BELLEZA CON INTENCIÓN</span><a href="#servicios">DESCUBRE NUESTROS SERVICIOS <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="services section-space" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> CUIDADO HECHO PARA TI</p><h2>Pequeños detalles,<br><em>gran diferencia.</em></h2></div>
+          <p>Rituales de belleza pensados para resaltar lo que te hace única. Elige tu próximo favorito.</p>
+        </div>
+        <div class="service-columns">
+          <article class="service-group">
+            <div class="service-group-heading"><span class="category-index">01</span><h3>Cabello</h3><span class="category-symbol" aria-hidden="true">〰</span></div>
+            <div class="service-list">
+              <article class="service-card">
+                <div><h4>Corte &amp; estilo</h4><p>Un corte a tu medida, con lavado y styling.</p></div>
+                <div class="service-action"><span>Desde $18</span><a class="service-booking" data-service="Corte & estilo" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Corte y estilo">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="service-card">
+                <div><h4>Colorimetría &amp; balayage</h4><p>Dimensión, luz y tonos que se sienten tuyos.</p></div>
+                <div class="service-action"><span>Desde $55</span><a class="service-booking" data-service="Colorimetría y balayage" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Colorimetría y balayage">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="service-card">
+                <div><h4>Keratina</h4><p>Suavidad y brillo para un cabello más manejable.</p></div>
+                <div class="service-action"><span>Desde $45</span><a class="service-booking" data-service="Keratina" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Keratina">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="service-card">
+                <div><h4>Peinados</h4><p>El toque final perfecto para tu ocasión especial.</p></div>
+                <div class="service-action"><span>Desde $25</span><a class="service-booking" data-service="Peinado" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Peinado">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+            </div>
+          </article>
+          <article class="service-group">
+            <div class="service-group-heading"><span class="category-index">02</span><h3>Uñas</h3><span class="category-symbol" aria-hidden="true">✳</span></div>
+            <div class="service-list">
+              <article class="service-card">
+                <div><h4>Manicure semipermanente</h4><p>Color impecable y brillo que dura.</p></div>
+                <div class="service-action"><span>Desde $18</span><a class="service-booking" data-service="Manicure semipermanente" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Manicure semipermanente">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="service-card">
+                <div><h4>Soft Gel &amp; acrílicas</h4><p>La forma y el largo que van contigo.</p></div>
+                <div class="service-action"><span>Desde $30</span><a class="service-booking" data-service="Soft Gel y acrílicas" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Soft Gel y acrílicas">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="service-card">
+                <div><h4>Nail art</h4><p>Diseños únicos, desde sutiles hasta atrevidos.</p></div>
+                <div class="service-action"><span>Desde $5</span><a class="service-booking" data-service="Nail art" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Nail art">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="service-card">
+                <div><h4>Pedicure spa</h4><p>Un ritual relajante para tus pies.</p></div>
+                <div class="service-action"><span>Desde $22</span><a class="service-booking" data-service="Pedicure spa" href="#" target="_blank" rel="noopener noreferrer" aria-label="Agendar Pedicure spa">Agendar <span aria-hidden="true">↗</span></a></div>
+              </article>
+            </div>
+          </article>
+        </div>
+        <p class="price-note">Precios referenciales. El valor final puede variar según el largo del cabello o el diseño elegido.</p>
+      </div>
+    </section>
+
+    <section class="gallery section-space" id="galeria">
+      <div class="container">
+        <div class="section-heading gallery-heading">
+          <div><p class="eyebrow"><span></span> INSPIRACIÓN REAL</p><h2>Un vistazo a nuestro<br><em>mundo de belleza.</em></h2></div>
+          <a class="text-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Síguenos en Instagram <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-tall"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=85" alt="Detalle de un espacio de peluquería elegante" loading="lazy"><figcaption>01 / MOMENTOS PARA TI</figcaption></figure>
+          <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=85" alt="Manicure cuidado con acabado delicado" loading="lazy"><figcaption>02 / UÑAS CON PERSONALIDAD</figcaption></figure>
+          <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=85" alt="Cabello con ondas y acabado brillante" loading="lazy"><figcaption>03 / TU CABELLO, TU ESTILO</figcaption></figure>
+          <figure class="gallery-item gallery-wide"><img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1000&q=85" alt="Maquillaje y belleza en tonos naturales" loading="lazy"><figcaption>04 / BELLEZA EN CADA DETALLE</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section-space" id="ubicacion">
+      <div class="container visit-layout">
+        <div class="visit-copy">
+          <p class="eyebrow"><span></span> SERÁ UN GUSTO RECIBIRTE</p>
+          <h2>Tu próximo<br><em>momento favorito.</em></h2>
+          <p class="visit-intro">Estamos aquí para que te desconectes un ratito y salgas sintiéndote increíble.</p>
+          <div class="visit-detail"><span class="detail-icon" aria-hidden="true">⌖</span><div><h3>Encuéntranos</h3><p>[Escribir dirección aquí]</p></div></div>
+          <div class="visit-detail"><span class="detail-icon" aria-hidden="true">◷</span><div><h3>Horario de atención</h3><p>[Ej: Lunes a Sábado 9:00 AM - 7:00 PM]</p></div></div>
+          <a class="button button-dark" href="https://wa.me/593999398553?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer">Reserva tu momento <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="map-frame">
+          <!-- Reemplaza la dirección de la URL o el iframe por el código de inserción de tu ubicación. -->
+          <iframe title="Mapa de ubicación del salón" src="https://www.google.com/maps?q=Escribir%20direcci%C3%B3n%20aqu%C3%AD&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <div class="map-label"><span class="map-pin" aria-hidden="true">⌖</span><span>[Nombre del salón o estilista]<small>[Escribir dirección aquí]</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-note">
+      <div class="container closing-inner"><span aria-hidden="true">✳</span><p>La belleza también es<br><em>tomarte un momento para ti.</em></p><span aria-hidden="true">✳</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#inicio" aria-label="Volver al inicio"><span class="brand-mark" aria-hidden="true">a.</span><span class="brand-copy"><strong>[Nombre del salón o estilista]</strong><small>ESTUDIO DE BELLEZA</small></span></a>
+      <p>Un espacio para sentirte bien,<br>por dentro y por fuera.</p>
+      <div class="footer-socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year"></span> [Nombre del salón o estilista]. Todos los derechos reservados.</span><a href="#inicio">Volver arriba ↑</a></div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/593999398553?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer" aria-label="Agendar una cita por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.8 11.8 0 0 0 12.1 0C5.55 0 .22 5.32.22 11.87c0 2.09.55 4.13 1.59 5.93L.12 24l6.35-1.66a11.9 11.9 0 0 0 5.63 1.43h.01c6.54 0 11.87-5.33 11.87-11.88 0-3.17-1.23-6.15-3.46-8.41ZM12.1 21.75h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.77.99 1.01-3.67-.24-.38a9.86 9.86 0 0 1-1.52-5.23c0-5.47 4.46-9.92 9.94-9.92a9.87 9.87 0 0 1 7.03 2.91 9.87 9.87 0 0 1 2.91 7.03c0 5.48-4.46 9.94-9.95 9.94Zm5.45-7.44c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.18.2-.35.22-.65.07-.3-.15-1.26-.47-2.4-1.49-.89-.79-1.49-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.53.15-.17.2-.3.3-.5.1-.2.05-.38-.03-.53-.07-.15-.68-1.64-.93-2.25-.25-.59-.5-.51-.68-.52h-.58c-.2 0-.53.07-.8.38-.28.3-1.05 1.02-1.05 2.49s1.08 2.89 1.23 3.09c.15.2 2.12 3.24 5.13 4.54.72.31 1.28.5 1.72.64.72.23 1.37.2 1.88.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35Z"/></svg>
+  </a>
+</body>
+</html>
